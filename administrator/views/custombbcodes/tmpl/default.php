@@ -109,7 +109,7 @@ if ($saveOrder) {
 					$icon = '';
 
 					if ($item->button_image != '') {
-						$icon = '<img src="' . JPATH_SITE . '/' . $item->button_image . '" alt="' . $item->name . '" />';
+						$icon = '<img src="' . $item->button_image . '" alt="' . $item->name . '" />';
 					} else if ($item->button_css != '') {
 						$icon = '<span class="bbcode" style="width: 23px;"><a href="#" onclick="return false;" class="' . $item->button_css . '"></a></span>';
 					}
