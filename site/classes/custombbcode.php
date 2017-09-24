@@ -16,7 +16,7 @@ defined('_JEXEC') or die;
  */
 class JCommentsCustomBBCode
 {
-	var $this->codes = array();
+	var $codes = array();
 	var $patterns = array();
 	var $filter_patterns = array();
 	var $html_replacements = array();
